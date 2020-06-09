@@ -1,4 +1,4 @@
-const PORT = '80';
+const PORT = process.env.PORT || 80;
 const MONGODB_URI = 'mongodb://heroku_tv1msxfs:qp47q2sjvk7n8o3br9taaoohnb@ds061076.mlab.com:61076/heroku_tv1msxfs';
 
 const path = require('path');
@@ -18,7 +18,7 @@ server.get('*', (req, res) => {
 
 async function runServer() {
     try {
-        await mongoose.connect(MONGODB_URI, {
+        await mongoose.connect(process.env.MONGODB_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,
