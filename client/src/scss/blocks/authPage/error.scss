@@ -1,0 +1,21 @@
+.error-wrap {
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.error {
+  padding: 0 30px;
+  margin-top: 30px;
+  height: 70px;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  top: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

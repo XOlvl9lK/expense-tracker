@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c2d8a2d-3e6c-41d1-a823-b7411cdd2b5f" name="Default Changelist" comment="" />
+    <list default="true" id="7c2d8a2d-3e6c-41d1-a823-b7411cdd2b5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/authPage/AuthPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/authPage/components/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/authPage/components/Registration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/error/Error.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/historyPage/HistoryPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/historyPage/View.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/loading/Loading.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/mainPage/MainPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/mainPage/View.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/components/navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/hooks/auth.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/hooks/http.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/js/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/authPage/authPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/authPage/error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/authPage/login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/authPage/registration.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/historyPage/historyPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/loading/loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/mainPage/mainPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/blocks/navbar/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/cssTransition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Expenses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/getCurOrNextMonth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/expense.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cqXG4WEX8m91pJDzn8ew4BO0cD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,8 +60,72 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Training-dev" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donat\Desktop\expense-tracker\client\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donat\Desktop\expense-tracker\client\src\scss" />
+      <recent name="C:\Users\donat\Desktop\expense-tracker\client\src\scss\blocks\authPage" />
+      <recent name="C:\Users\donat\Desktop\expense-tracker\client\src\js\components\authPage" />
+      <recent name="C:\Users\donat\Desktop\expense-tracker\client\src" />
+      <recent name="C:\Users\donat\Desktop\expense-tracker\client\src\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,16 +138,63 @@
       <option name="presentableId" value="Default" />
       <updated>1591256997219</updated>
       <workItem from="1591256999047" duration="885000" />
+      <workItem from="1591347073379" duration="12354000" />
+      <workItem from="1591362754772" duration="7542000" />
+      <workItem from="1591374733826" duration="1917000" />
+      <workItem from="1591444744248" duration="9086000" />
+      <workItem from="1591526334199" duration="18170000" />
+      <workItem from="1591601769872" duration="20891000" />
+      <workItem from="1591628957470" duration="9621000" />
+      <workItem from="1591686768791" duration="9141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/client/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/client/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/client/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591259838798">
+    <state x="733" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591355736666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591259838798" />
+    <state x="733" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591355736666" />
+    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1591623932761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591623932761" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591688207523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591688207523" />
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1591702563848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591702563848" />
+    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1591702563847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591702563847" />
+    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1591702563847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591702563847" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1591702563847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591702563847" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1591348131205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591348131205" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591614348696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591614348696" />
   </component>
 </project>

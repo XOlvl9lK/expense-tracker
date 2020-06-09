@@ -1,0 +1,15 @@
+@import "core";
+@import "fonts";
+@import "cssTransition";
+
+@import "blocks/authPage/authPage";
+@import "blocks/authPage/login";
+@import "blocks/authPage/registration";
+@import "blocks/authPage/error";
+
+@import "blocks/navbar/navbar";
+
+@import "blocks/mainPage/mainPage";
+@import "blocks/loading/loading";
+
+@import "blocks/historyPage/historyPage";

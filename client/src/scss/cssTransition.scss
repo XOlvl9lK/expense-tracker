@@ -1,0 +1,60 @@
+.swipe-registration-enter {
+  transform: translateX(50%);
+  opacity: 0;
+}
+.swipe-registration-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: .2s;
+}
+.swipe-registration-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.swipe-registration-exit-active {
+  transform: translateX(50%);
+  opacity: 0;
+  transition: .2s;
+}
+
+
+
+.swipe-login-enter {
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.swipe-login-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: .2s ease;
+}
+.swipe-login-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.swipe-login-exit-active {
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: .2s ease;
+}
+
+
+
+.pushup-enter {
+  padding-top: 100px;
+  opacity: 0;
+}
+.pushup-enter-active {
+  padding-top: 0;
+  opacity: 1;
+  transition: .5s ease;
+}
+.pushup-exit {
+  padding-top: 0;
+  opacity: 1;
+}
+.pushup-exit-active {
+  padding-top: 100px;
+  opacity: 0;
+  transition: .5s ease;
+}

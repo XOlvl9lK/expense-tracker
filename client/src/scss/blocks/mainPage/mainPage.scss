@@ -1,0 +1,289 @@
+$neon: #9fd5ff;
+
+.main-page-wrap {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.main-page {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    margin: 15px 0;
+  }
+
+  hr {
+    width: 100%;
+    border: 1px solid #cacaca;
+    margin: 0;
+  }
+}
+
+.title {
+  margin-top: 50px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.balance {
+  align-self: normal;
+
+  h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+}
+
+.month {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 450px;
+  height: 90px;
+  border-radius: 5px;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0 3px 3px #b8b8b8;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+
+  p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+  }
+}
+
+.by-month {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #b2b2b2;
+  font-size: 14px!important;
+  font-weight: 400!important;
+  margin: 0!important;
+  padding-left: 4px;
+  padding-top: 3px;
+}
+
+.income {
+
+  p {
+    color: #5ade6b;
+  }
+
+  &:before {
+    content: "";
+    left: 50%;
+    top: 30px;
+    bottom: 20px;
+    width: 2px;
+    background-color: #c2c2c2;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+}
+
+.expense {
+
+  p {
+    color: #e60000;
+  }
+}
+
+.last-transactions {
+  width: 100%;
+
+  h3 {
+    font-weight: 400;
+  }
+  
+  .plug {
+    text-align: center;
+  }
+
+  p {
+    background-color: white;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0 2px 5px #b8b8b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    span {
+      &:last-child {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 6px;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .text-splitter {
+    position: relative!important;
+    width: 2px!important;
+    height: 100%!important;
+    background-color: #a6a6a6 !important;
+    margin: 0 10px!important;
+    padding: 2px 1px;
+
+  }
+}
+
+.positive {
+  background-color: #5ade6b;
+}
+
+.negative {
+  background-color: #e60000;
+}
+
+.new-transaction {
+  width: 100%;
+
+  h3 {
+    font-weight: 400;
+  }
+
+
+  input {
+    width: 440px;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    font-size: 16px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 2px 5px 2px #9fd5ff,
+                0 -2px 5px 2px #9fd5ff;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: .6s ease;
+    position: relative;
+    border-radius: 2px;
+
+    &:hover {
+      color: white;
+      background-color: $neon;
+      box-shadow: 0 0 10px $neon,
+                  0 0 25px $neon,
+                  0 0 50px $neon;
+
+      span {
+        &:nth-child(1) { left: 100%; }
+        &:nth-child(2) { top: 100%; }
+        &:nth-child(3) { right: 100%; }
+        &:nth-child(4) { bottom: 100%; }
+      }
+    }
+
+    span {
+      display: block;
+      position: absolute;
+      transition: .6s ease;
+
+      &:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, transparent, $neon);
+        transition-delay: .25s;
+      }
+
+      &:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, $neon);
+      }
+
+      &:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(270deg, transparent, $neon);
+        transition-delay: .25s;
+      }
+
+      &:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(0, transparent, $neon);
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.text {
+  margin: 12px 0;
+}
+
+.amount {
+  margin: 12px 0;
+}
+
+.warning {
+  color: #e60000;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
