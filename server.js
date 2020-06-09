@@ -4,9 +4,7 @@ const MONGODB_URI = 'mongodb://heroku_tv1msxfs:qp47q2sjvk7n8o3br9taaoohnb@ds0610
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
-
 const server = express();
-a
 server.use(express.json({ extended: true }));
 
 server.use('/auth', require('./routes/auth.routes'));
