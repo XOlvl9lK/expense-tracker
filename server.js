@@ -1,5 +1,5 @@
-const PORT = '8080';
-const MONGODB_URI = 'mongodb+srv://denis:1234qwer@cluster0-xiwz2.azure.mongodb.net/expense-tracker?retryWrites=true&w=majority';
+const PORT = '80';
+const MONGODB_URI = 'mongodb://heroku_tv1msxfs:qp47q2sjvk7n8o3br9taaoohnb@ds061076.mlab.com:61076/heroku_tv1msxfs';
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -10,6 +10,12 @@ server.use(express.json({ extended: true }));
 
 server.use('/auth', require('./routes/auth.routes'));
 server.use('/expenses', require('./routes/expense.routes'));
+
+server.use('/', express.static(path.join(__dirname, 'client', 'build')));
+
+server.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+});
 
 async function runServer() {
     try {
