@@ -1,14 +1,17 @@
 const PORT = process.env.PORT || 80;
-const MONGODB_URI = 'mongodb://heroku_tv1msxfs:qp47q2sjvk7n8o3br9taaoohnb@ds061076.mlab.com:61076/heroku_tv1msxfs';
+const MONGODB_URI = 'mongodb+srv://user:user@cluster0.ez07i.mongodb.net/expense-tracker?retryWrites=true&w=majority';
 
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
+const authRouter = require('./routes/auth.routes')
+const expenseRouter = require('./routes/expense.routes')
+
 const server = express();
 server.use(express.json({ extended: true }));
 
-server.use('/auth', require('./routes/auth.routes'));
-server.use('/expenses', require('./routes/expense.routes'));
+server.use('/auth', authRouter);
+server.use('/expenses', expenseRouter);
 
 server.use('/', express.static(path.join(__dirname, 'client', 'build')));
 
@@ -18,7 +21,7 @@ server.get('*', (req, res) => {
 
 async function runServer() {
     try {
-        await mongoose.connect(process.env.MONGODB_URI, {
+        await mongoose.connect(MONGODB_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,

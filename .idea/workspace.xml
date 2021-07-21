@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../megafon" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
@@ -109,7 +109,8 @@
       <workItem from="1591526334199" duration="18170000" />
       <workItem from="1591601769872" duration="20891000" />
       <workItem from="1591628957470" duration="9621000" />
-      <workItem from="1591686768791" duration="10263000" />
+      <workItem from="1591686768791" duration="10624000" />
+      <workItem from="1591720296723" duration="12000" />
     </task>
     <servers />
   </component>
@@ -132,26 +133,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591623932761" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591703229831">
+    <state x="648" y="262" key="FileChooserDialogImpl" timestamp="1591720306941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591703229831" />
-    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1591702854442">
+    <state x="648" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591720306941" />
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1591704177527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591702854442" />
-    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1591702854442">
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591704177527" />
+    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1591704177526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591702854442" />
-    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1591702854442">
+    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591704177526" />
+    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1591704177525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591702854442" />
-    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1591702854442">
+    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591704177525" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1591704177526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591702854442" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591704177526" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1591348131205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

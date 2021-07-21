@@ -12,7 +12,6 @@ router.post('/register', [
     async (req, res) => {
     try {
         const errors = validationResult(req);
-
         if (!errors.isEmpty()) {
             return res.status(406).json({ message: 'Email must be a valid and password must be a greater than 5 characters'});
         }

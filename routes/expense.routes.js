@@ -18,7 +18,7 @@ router.post('/add', auth, async (req, res) => {
         user.balance += Number(amount);
         await user.save();
 
-        expense.save();
+        await expense.save();
 
         res.status(201).json({ expense });
     } catch (error) {
